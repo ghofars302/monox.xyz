@@ -3,7 +3,7 @@
 // @version  1
 // @grant    none
 // @author	 monox
-// @homepageURL  https://monox.xyx/devinsurance.html
+// @homepageURL  https://monox.xyz/davinsurance.html
 // @description Skip iklan gan
 // @include https://davinsurance.com/*
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js
